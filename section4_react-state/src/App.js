@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Expense from './components/Expenses/Expense'
+import Expense from './components/Expenses/Expense';
+import NewExpense from './components/NewExpense/NewExpense';
 
 const App = () => {
   const expenses = [
@@ -27,8 +28,7 @@ const App = () => {
 
   return (
     <div>
-      <h2>Let us get started!</h2>
-      <p>This is also visible!</p>
+      <NewExpense />
       <Expense expenses={expenses} />
     </div>
   );
