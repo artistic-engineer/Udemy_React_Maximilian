@@ -64,7 +64,6 @@ const ExpenseForm = () => {
            onChange={titleChangeHandler} 
            value={userInput.enteredTitle}/>
         </div>
-        
         <div className="new-expense__control">
           <label>Amount</label>
           <input
